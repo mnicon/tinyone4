@@ -1,0 +1,208 @@
+body{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{    /* code normalaze korlam niche, pore jeta kortam shay ta agay kore rakhlamai link theke jana jabe
+                        https://necolas.github.io/normalize.css/*/
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+
+.pull_left{  /* .pull_left name 2 ta id open kore rakhlam ja poreamader left right korte shuvidha hobe*/
+
+	float: left;
+
+}
+.pull_right{
+    float: right;
+}
+/* html korar por http://extractcss.com/ ai khan theke IDs icon ta select kore html code diee nicher css structure gulo copy kore niee eshechi */
+.header_section {
+	background:#fcdb00;
+}
+
+.header_content {
+	margin: 0 auto;
+	width: 70%;  /*width diee 2 dik theke jayga kore nilam */
+	padding: 20px 0; /* 20px er por "0" rakhlam karonn left right theke jayga nibe na , shudhu upor & nich theke jayga nibe*/
+     /*border:2px solid black;*/
+}
+
+.navigation_bar {
+	
+	overflow: hidden; /* jehetu pull_left or right diee logo & menu left rigt e niechi flot use kore shehe tu uporer .navigation_bar er hight
+	            ta chole geche, & ai hight ta holo .navigation_bar er hight ? tai .navigation_bar e overflow:hidden use korlam hight ta fire pete;    */
+}
+
+.logo {     /* Note: bujlam na keno logo id ta CSS ekbar pull_left & arek bar shudhu logo name 2ta id use kora hoyche ?????;*/
+	width: 50%;
+	/*border: 2px solid red;
+	box-sizing: border-box;*/
+	overflow: hidden;
+
+}
+
+.logo_left{
+	width: 10%;
+	/*border: 2px solid blue;
+	box-sizing: border-box;*/
+	float: left;
+}
+.logo_right{
+	width: 90%;
+	/*border: 2px solid red;
+	box-sizing: border-box;*/
+	float: right;
+	margin-top: 10px;
+}
+
+/*
+}
+
+.logo img{
+	width: 30%;
+	float: left;
+}
+.logo span{
+	font-size: 17px;
+	font-weight: bold;
+	font-family: sans-serif;
+	width: 70%;
+	float: right;
+}
+*/
+.menu {
+	width: 50%;
+}
+.menu ul li{   
+	display: inline-block;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 15px;
+}
+
+.slider_section {
+	/*border: 2px solid green;*/
+	overflow: hidden;
+	padding: 40px;
+	position: relative;
+}
+
+.slider_text {
+	width: 50%;
+	/*border: 2px solid red;
+	box-sizing: border-box;*/
+	padding-top: 20px;
+	padding-right: 20px;
+	font-family:sans-serif;
+	position: absolute; /*position: absolute kore top left & middle e ante hobe, transform: translateY(-50%) kore, and position
+	                     absolute korle position relative korte hobe  */
+	top: 50%;     /*top left and transform: translateY(-50%); er maddome text gulomajkhane ana hoyche */
+	left: 0;
+	transform: translateY(-50%);
+    
+}
+.slider_text h1, h4,  p{
+     margin: 20px 0;
+}
+
+.platform_icon{
+	padding: 20px;
+
+}
+.platform_icon i{
+     padding:10px;
+}
+.platform_icon i:first-child{
+	padding-left: 0;
+}
+
+.slider_img {
+	width: 50%;
+}
+
+
+/* Tinyone features section start here */	
+.main_content_section {
+	
+	height: 90vh;
+	background:#006666;
+	width: 100%;
+	margin: 0;
+	border: 2px solid red;
+	box-sizing: border-box;
+	position: relative;
+
+}
+
+.full_section_of_feature_services{
+	
+	}
+
+.features_heading {
+	
+}
+.heading_text{
+	border: 2px solid green;
+	box-sizing: border-box;
+	
+	position: absolute;
+    
+	text-align: center;
+	
+	
+}
+.heading_text h1{
+	text-align: center;
+}
+.heading_text p{
+text-align: center;
+}
+
+.feature_services {
+	border: 2px solid black;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 
+	top: 100%;
+}
+
+.icon_responsive {
+}
+
+.fa.fa-tablet.fa-3x {
+}
+
+.icon_text {
+}
+
+.fa.fa-id-card.fa-3x {
+}
+
+.fa.fa-envelope-open.fa-3x {
+}
+
+.fa.fa-university.fa-3x {
+}
+
+.fa.fa-paper-plane.fa-3x {
+}
+
+.fa.fa-check.fa-3x {
+}
+.footer_section {
+}
